@@ -16,3 +16,4 @@ func TestWorld(t *testing.T) {
 		t.Errorf("World(%q) = %q, expected to contain %q", in, got, in)
 	}
 }
+
